@@ -1,0 +1,62 @@
+$color: bisque;
+$quote1:"“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”
+― Marilyn Monroe";
+$quote2:"“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”
+― Bernard M. Baruch";
+
+
+%quote {
+    font-weight: bold;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+body {
+background: $color;
+}
+
+#btm-education {
+    margin-top:60px;
+    font-size: 18px;
+    font-family: cursive;
+    p {
+        padding: 20px;
+        color: blueviolet;
+    }
+    div{
+        padding: 15px;
+        border:4px dashed black;
+        color: yellowgreen;
+        border-radius: 3px;
+        background-color: grey;
+        margin: 0px 50px 0px 50px ;
+
+    }
+    .quote1::before {
+        @extend %quote;
+        content: $quote1 ;
+    }
+    .quote2::before {
+        @extend %quote;
+        content: $quote2 ;
+    }
+}
+.btn.disabled {
+    background-color: aqua;
+}
+
+.btn-primary , .btn.disabled {
+    width:90%; 
+    
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #8CD8F3;
+    border-color: #285e8e; 
+}
+
+
+
+#div2 {
+    padding: 20px 
+}

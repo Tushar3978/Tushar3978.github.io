@@ -1,0 +1,81 @@
+#img2 {
+    border:5px;
+    border-style: solid;
+}
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 5.5em 0px 4.2em;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: tomato;
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+  
+  .aside-1 {
+    background: gold;
+  }
+  
+  .aside-2 {
+    background: hotpink;
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body { 
+    background-color: bisque;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    display: inline-block;
+    text-align:center;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+.wrapper > .aside-1 > p.hed {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    font-size: large;
+    padding-top: 5px;
+
+
+}
+.wrapper > .main > .inmain {
+    margin: 20px 30px 20px 30px ;
+    background-color: rgba(46, 151, 165, 0.747);
+    opacity: 0.6;
+    padding: 20px 10px 10px 20px ;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+}

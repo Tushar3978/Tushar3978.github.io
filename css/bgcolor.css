@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* line 8, ../../project0/css/scss/bgcolor.scss */
+#btm-education .quote1::before, #btm-education .quote2::before {
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* line 15, ../../project0/css/scss/bgcolor.scss */
+body {
+  background: bisque;
+}
+
+/* line 19, ../../project0/css/scss/bgcolor.scss */
+#btm-education {
+  margin-top: 60px;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+/* line 23, ../../project0/css/scss/bgcolor.scss */
+#btm-education p {
+  padding: 20px;
+  color: blueviolet;
+}
+
+/* line 27, ../../project0/css/scss/bgcolor.scss */
+#btm-education div {
+  padding: 15px;
+  border: 4px dashed black;
+  color: yellowgreen;
+  border-radius: 3px;
+  background-color: grey;
+  margin: 0px 50px 0px 50px;
+}
+
+/* line 36, ../../project0/css/scss/bgcolor.scss */
+#btm-education .quote1::before {
+  content: "“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”\a― Marilyn Monroe";
+}
+
+/* line 40, ../../project0/css/scss/bgcolor.scss */
+#btm-education .quote2::before {
+  content: "“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”\a― Bernard M. Baruch";
+}
+
+/* line 45, ../../project0/css/scss/bgcolor.scss */
+.btn.disabled {
+  background-color: aqua;
+}
+
+/* line 49, ../../project0/css/scss/bgcolor.scss */
+.btn-primary, .btn.disabled {
+  width: 90%;
+}
+
+/* line 53, ../../project0/css/scss/bgcolor.scss */
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background-color: #8CD8F3;
+  border-color: #285e8e;
+}
+
+/* line 60, ../../project0/css/scss/bgcolor.scss */
+#div2 {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=bgcolor.css.map */

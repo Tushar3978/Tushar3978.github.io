@@ -1,0 +1,41 @@
+* {
+    width: 82%;
+    margin: 30px auto ;
+    background-color: pink;
+    text-align: center;
+}
+
+
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #8CD8F3;
+    border-color: #285e8e; 
+}
+
+#div1 > p{
+    font-size:19px;
+}
+
+@media (min-width: 600px) {
+    p.p1::before{
+        content:"Hello, world!";
+    }
+    p.p2:before{
+        content:"I welcome you ! Find All about me Here.";
+    }
+    p.p3::before{
+        content:"Please click on the appropriate button below to go to the specific page.";
+    }
+}
+@media (max-width: 599px) {
+    p.p1::before{
+        content:"Hello!";
+    }
+    p.p2 , .emoji {
+        display: None;
+    }
+    p.p3::before{
+        content:"Please choose.";
+    }
+}
